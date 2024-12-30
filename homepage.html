@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DanaProtect</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #73006d, #960a86);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #ca6702;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #960a52;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ffffff;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .content h2 {
+            color: #730056;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 3px solid #9502ca;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+
+        .facts {
+            background-color: #e9d8a6;
+            padding: 15px;
+            margin-top: 20px;
+            border-left: 5px solid #a902ca;
+        }
+
+        footer {
+            background: linear-gradient(135deg, #730062, #960a94);
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .timeline {
+            margin-top: 30px;
+            padding-left: 20px;
+            border-left: 2px solid #6902ca;
+        }
+
+        .timeline h3 {
+            margin: 0;
+            color: #ca6702;
+        }
+
+        .timeline p {
+            margin: 5px 0 15px;
+        }
+
+        form {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+        }
+
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"], input[type="reset"], button {
+            background-color: #960a81;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover, input[type="reset"]:hover, button:hover {
+            background-color: #730047;
+        }
+
+        #backToTop {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 15px;
+            background-color: #960a78;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        #backToTop:hover {
+            background-color: #730052;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>DanaProtect</h1>
+</header>
+
+<nav aria-label="Basic information">
+    <a href="#history">History</a>
+    <a href="#culture">Information</a>
+    <a href="#facts">Workers</a>
+    <a href="#timeline">Contact</a>
+    <a href="#feedback">feedback</a>
+    <a href="#registration">registration</a>
+</nav>
+
+<div class="content" id="History">
+    <h2>How our company actually came to be</h2>
+    <p>Because many people forgot passwords and logins from sites. We decided to launch our program. Which will help to easily save passwords and beware of scammers.</p>
+          <p><i></i></p>
+    </div>
+    
+</div>
+
+<div class="content" id="Information">
+    <h2>Information</h2>
+    <p>Our program will help you store passwords safely. at this time it is very dangerous because there are a lot of scammers who can hack your data, but our program is very safe</p>
+</div>
+
+<div class="facts content" id="Workers">
+    <h2>Our employees </h2>
+    <ul>
+        <li>We generally have very good employees. unfortunately there are no famous workers yet, but the beginning is not bad yet</li>
+        <li>All our employees are kind and they will help solve any issue</li>
+        <li>All employees are young and qualified and graduated from very good universities</li>
+    </ul>
+</div>
+
+<div class="content timeline" id="Contact">
+    <h2>Our contact</h2>
+    <h3>Telephone:87705427893</h3>
+    <p>Instagram</p>
+    <h3>DanaProtect</h3>
+    <p>Our gmail</p>
+    <h3>danaprotect@gmail.com</h3>
+   
+</div>
+
+<div class="content" id="feedback">
+    <h2>feedback</h2>
+    <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+        <label for="name">Ваше имя:</label><br>
+        <input type="text" id="name" name="name" placeholder="Введите ваше имя" required><br><br>
+        <label for="email">Ваш Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Введите ваш email" required><br><br>
+        <label for="message">Ваше сообщение:</label><br>
+        <textarea id="message" name="message" rows="5" placeholder="Введите ваше сообщение"></textarea><br><br>
+        <input type="submit" value="Отправить">
+        <input type="reset" value="Очистить">
+    </form>
+</div>
+
+<div class="content" id="registration">
+    <h2>Регистрация</h2>
+    <form action="submit_registration.php" method="post">
+        <label for="username">Имя пользователя:</label><br>
+        <input type="text" id="username" name="username" placeholder="Введите имя пользователя" required><br><br>
+
+        <label for="email">Электронная почта:</label><br>
+        <input type="email" id="email" name="email" placeholder="Введите вашу почту" required><br><br>
+
+        <label for="password">Пароль:</label><br>
+        <input type="password" id="password" name="password" placeholder="Введите пароль" required><br><br>
+
+        <input type="submit" value="Зарегистрироваться">
+        <input type="reset" value="Сбросить">
+    </form>
+</div>
+
+<button id="backToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">Наверх</button>
+
+<footer>
+    <p>&copy; 2024 Казахское ханство. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
